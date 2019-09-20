@@ -16,7 +16,7 @@ public class VendaImoveisTest {
 	@Before
 	public void init () {
 		// Criando Dados de Teste
-		v1 = new VendaImoveis("./src/main/resources/Vizinhanca2.csv");
+		v1 = new VendaImoveis("./src/main/resources/Vizinhanca.csv");
 		v2 = new VendaImoveis("./src/main/resources/Vazio.csv");
 		imoveis1 = new HashSet<String>();
 		imoveis1.add("I1"); imoveis1.add("I2"); imoveis1.add("I3"); imoveis1.add("I4"); imoveis1.add("I5");
